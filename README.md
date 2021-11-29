@@ -1,5 +1,5 @@
-In this project ECG data was classified usign the ResNet 
-Both the JupyterLab instance and the database were created in one Docker container.  Code for machine learning algorithm for classification of ECG data was largely sourced from https://github.com/spdrnl/ecg/blob/master/ECG.ipynb.
+In this project ECG data was classified using the ResNet. It is run in a Docker container.
+Both the JupyterLab instance and the database were created in one Docker container. Code for the classification of ECG data was largely sourced from https://github.com/spdrnl/ecg/blob/master/ECG.ipynb.
 
 ## Running the project
 The project is started by running **run_project.bat**. This will:  <br />
