@@ -4,7 +4,7 @@ RUN mkdir src
 WORKDIR src/
 COPY . .
 
-RUN apt-get update && apt-get install -y --no-install-recommends \
+RUN apt-get update && apt-get install -y wget && apt-get install -y --no-install-recommends \
     python3.8 \
     python3-pip \
     && \
@@ -21,3 +21,4 @@ RUN pip3 install numpy \
 	imblearn \
 	matplotlib \ 
 	tensorflow_addons 
+
